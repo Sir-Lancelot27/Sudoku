@@ -98,7 +98,7 @@ def findMinSym(pzl, nbrVals): # returns the symbol that can go in least amount o
 					minTracker = (sym,tempSet)
 	return minTracker
 
-def bruteForce(pzl, nbrVals): # BruteForce algorithm to solve Sudoku Puzzle
+def bruteForce(pzl, nbrVals): # BruteForce algorithm to solve Sudoku Puzzle given the puzzle and the neighbors of every position
 	if pzl.find('.') == -1: return pzl  # solution
 	minPosData = findMinPos(pzl, nbrVals)
 	if minPosData is None: return ''
