@@ -10,5 +10,5 @@ Puzzle#: Puzzle
           solvedPuzzle time checkSum
           
 checkSum is the sum of every position in the solved sudoku puzzle. For a 9x9 puzzle it would equal 405. Quick way to verify correctness of the sudoku solver
-
+Puzzles must come in the form of a string that is NxN long filled with '.'s to represent empty spots in the puzzled or a number between 1-N.
 Puzzle files come from Dr. Csaba Gabor from my time at TJHSST.
